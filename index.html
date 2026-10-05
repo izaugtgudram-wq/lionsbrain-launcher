@@ -11,27 +11,21 @@
   <link rel="apple-touch-icon" sizes="180x180" href="https://lh3.googleusercontent.com/d/1qYMGRJtowFlg4ruQPX65gtRXTrCarxCn?filename=Lionsbrain.png">
   <link rel="manifest" href="manifest.webmanifest">
   <style>
-    html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#f1f6fc}
-    body{padding-top:env(safe-area-inset-top);padding-bottom:env(safe-area-inset-bottom);box-sizing:border-box}
-    #app{display:block;width:100%;height:100%;border:0;background:#f1f6fc}
-    #fallback{position:fixed;inset:0;display:none;place-items:center;background:#f1f6fc;font-family:system-ui,-apple-system,sans-serif;color:#20334d;padding:24px;text-align:center}
-    #fallback a{display:inline-block;margin-top:14px;background:#245b9f;color:#fff;text-decoration:none;padding:12px 18px;border-radius:12px;font-weight:700}
+    html,body{height:100%;margin:0;font-family:system-ui,-apple-system,sans-serif;background:#f1f6fc;color:#20334d}
+    body{display:grid;place-items:center}
+    main{text-align:center;padding:28px}
+    img{width:92px;height:92px;border-radius:22px;box-shadow:0 8px 28px #20334d22}
+    h1{font-size:24px;margin:16px 0 6px}
+    p{margin:0 0 18px;color:#657b94}
+    a{display:inline-block;background:#245b9f;color:#fff;text-decoration:none;padding:12px 18px;border-radius:12px;font-weight:700}
   </style>
 </head>
 <body>
-  <iframe
-    id="app"
-    src="https://script.google.com/macros/s/AKfycbxfcnVc0byWlgTiLqvDhUFtqh_U53bUOqsU34BmJJGNkuKcbht2j2K4mBC4RqL76vUWWA/exec"
-    title="Lionsbrain"
-    allow="clipboard-read; clipboard-write"
-    referrerpolicy="strict-origin-when-cross-origin">
-  </iframe>
-  <div id="fallback">
-    <div>
-      <h1>Lionsbrain</h1>
-      <p>Google neļāva ielādēt app iekšā.</p>
-      <a href="https://script.google.com/macros/s/AKfycbxfcnVc0byWlgTiLqvDhUFtqh_U53bUOqsU34BmJJGNkuKcbht2j2K4mBC4RqL76vUWWA/exec">Atvērt Lionsbrain</a>
-    </div>
-  </div>
+  <main>
+    <img src="https://lh3.googleusercontent.com/d/1qYMGRJtowFlg4ruQPX65gtRXTrCarxCn?filename=Lionsbrain.png" alt="Lionsbrain">
+    <h1>Lionsbrain</h1>
+    <p>Atvērt drošo Katrīna OS webapp.</p>
+    <a href="https://script.google.com/macros/s/AKfycbxfcnVc0byWlgTiLqvDhUFtqh_U53bUOqsU34BmJJGNkuKcbht2j2K4mBC4RqL76vUWWA/exec">Atvērt Lionsbrain</a>
+  </main>
 </body>
 </html>
